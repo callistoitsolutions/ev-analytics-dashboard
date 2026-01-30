@@ -1,6 +1,7 @@
-streamlit==1.31.0
-pandas==2.1.4
-plotly==5.18.0
-openpyxl==3.1.2
-mysql-connector-python==8.2.0
-python-dotenv==1.0.0
+streamlit
+pandas
+plotly
+openpyxl
+mysql-connector-python
+
+python-dotenv
