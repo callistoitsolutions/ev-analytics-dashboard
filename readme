@@ -1,0 +1,101 @@
+# 🚗 Electric Vehicle Analytics Dashboard
+
+A comprehensive analytics dashboard for Electric Vehicle (EV) datasets built with Streamlit and Plotly.
+
+## ✨ Features
+
+- 📊 Interactive data visualization
+- 🔍 Dynamic filtering by segment and manufacturer
+- 💾 MySQL database integration
+- 📈 Real-time metrics and KPIs
+- 📥 Data export capabilities
+- 🎨 Modern, dark-themed UI
+
+## 🚀 Live Demo
+
+[View Live Dashboard](https://your-app-name.streamlit.app)
+
+## 📋 Prerequisites
+
+- Python 3.8 or higher
+- pip package manager
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ev-analytics-dashboard.git
+cd ev-analytics-dashboard
+```
+
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## 🎯 Usage
+
+1. Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+
+2. Open your browser and navigate to `http://localhost:8501`
+
+3. Upload your EV dataset (CSV or Excel format)
+
+4. Explore the analytics and visualizations!
+
+## 📊 Required Dataset Format
+
+Your dataset should include the following columns:
+
+- `Vehicle_ID` or `VehicleID`
+- `Manufacturer`
+- `Model`
+- `Segment`
+- `Battery_kWh` or `BatterykWh`
+- `Range_km` or `Rangekm`
+- `Revenue_INR` or `RevenueINR`
+- `Operating_Cost_INR` or `OperatingCostINR`
+
+Optional columns:
+- `Usage_Type` or `UsageType`
+- `Charging_Time_Hours` or `ChargingTimeHours`
+- `Energy_Consumed_kWh` or `EnergykWh`
+
+## 🗄️ Database Configuration (Optional)
+
+If you want to use MySQL integration:
+
+1. Create a `.env` file in the root directory
+2. Add your database credentials:
+```env
+DB_HOST=your_host
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=your_database
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 👤 Author
+
+Your Name - [@yourusername](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+
+- Built with [Streamlit](https://streamlit.io/)
+- Visualizations powered by [Plotly](https://plotly.com/)
